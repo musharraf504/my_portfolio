@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.container{
+    max-width: 1610px;
+    margin: auto;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 150px;
+    background-color: transparent;
+    /* box-shadow: 0 5px 20px rgb(193, 208, 255); */
+    backdrop-filter: blur(20px);
+    
+}
+
+.nav-header a{
+    color: royalblue;
+    
+}
+
+.nav-bar h1 a{
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+.nav-hr{
+    background-color: rgb(211, 211, 211);
+    border: 0;
+    height: 1px;
+}
+h1 span{
+    color: royalblue;
+    transition: 0.25s;
+}
+li{
+    list-style: none;
+
+}
+ul a{
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 25px;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.25s;
+    
+}
+ul a:hover{
+    background-color: royalblue;
+    color: white;
+}
+a.is-active{
+    background-color: royalblue;
+    color: white;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+.intro{
+    justify-content: space-between;
+    margin: 100px auto;
+}
+.intro h1{
+    font-size: 5rem;
+    line-height: 2;
+}
+.intro p{
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.intro img{
+    width: 500px;
+    border-radius: 250px 250px 250px 10px;
+    transition: 0.25s;
+}
+.intro img:hover{
+    border-radius: 10px 250px 250px 10px;
+}
+.hire-btn{
+    padding: 10px 50px;
+    cursor: pointer;
+    margin-top: 50px;
+    font-family: "poppins";
+    font-size: 2rem;
+    background-color: royalblue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: 0.25s;
+}
+.hire-btn:hover{
+    background-color: rgb(34, 83, 230);
+    box-shadow: -5px 5px black;
+    margin-left: 10px;
+    color: black;
+}
+span a{
+    color: royalblue;
+}
+.about-section h1{
+    font-size: 3rem;
+}
+.bit-about{
+    padding: 25px 50px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 25px;
+}
+.bit-about img{
+    width: 500px;
+    border-radius: 300px 300px 10px 300px;
+    transition: 0.25s;
+}
+.bit-about img:hover{
+    border-radius: 300px 10px 10px 300px;
+}
+.bit-about h1{
+    line-height: 3;
+}
+.bit-about p{
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: start;
+    margin-left: 80px;
+}
+.nav-header{
+    position: sticky;
+    top: 0;
+}
+.work h1{
+    color: royalblue;
+    font-size: 3rem;
+}
